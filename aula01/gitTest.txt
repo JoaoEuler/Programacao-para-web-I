@@ -1,0 +1,9 @@
+Passos:
+-Criar as pastas e o arquivo de texto 
+-cd <nome_pasta> (entrar na pasta)
+-cd <nome_pasta2> (entrar na segunda pasta)
+-git init (criar um novo repositório Git local na pasta)
+-ls -a (listar arquivos no reporitório[pasta] local)
+-git status (informa arquvos rastreados e nao rastreados)
+-git add <arquivo> (adiciona alterações feitas em arquivos e os prepara para um próximo commit)
+-git commit -m "mensagem" (armazena as alterações que você fez nos arquivos no histórico do seu repositório)
