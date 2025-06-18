@@ -1,0 +1,82 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#cabeca{
+    color: whitesmoke;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    background-color: #7B2DE3;
+    border-radius: 0px 0px 7px 7px;
+}
+#titulo{
+    text-align: center;
+    font-size: 60px;
+    padding: 25px;
+}
+#logoimg{
+    padding: 25px;
+    width: 125px;
+    height: 125px;
+}
+body{
+    background-color: #C6C2EB;
+}
+#formulario{
+    margin: 150px 500px 150px 500px;
+    padding: 0px;
+    text-align: center;
+    background-color: #7A8EE0;
+    border-radius: 15px;
+    display: flex; 
+    align-items: center; 
+    justify-content: left;
+    color: whitesmoke;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#corpo{
+    padding-left: 100px;
+}
+#formulariocorpo{
+    margin-left: 95px;
+    display: flex;
+    align-items: center; 
+    justify-content: right;
+}
+#formulario img{
+    width: 150px;
+    height: 150px;
+}
+#formulariotxt{
+    font-size: 20px;
+}
+#formulariotxt input{
+    border-radius: 5px;
+}
+.botao{
+    background-color: #4A5789;
+    color: whitesmoke;
+    padding: 10px;
+    font-size: 15px;
+    border-style: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.botao:hover{
+    background-color: #2b324e;
+    transition: 0.5s;
+}
+#footer{
+    background-color: rgb(194, 223, 223);
+    text-align: center;
+}
+#footer p{
+    padding: 10px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#footer img{
+    width: 30px;
+    height: 30px;
+}
